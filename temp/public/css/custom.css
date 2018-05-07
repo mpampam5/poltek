@@ -1,0 +1,334 @@
+/* .entry-content  img{
+  display: none!important;
+}
+
+.entry-content  br{
+  display: none!important;
+}
+#entry-content > strong,b{
+display:none!important;
+}
+
+
+#newsfeed .post .post-img>a>img{
+  width :100%!important;
+}
+
+#newsfeed .post .post-img>a{
+  background-size: 50%;
+  background-image: url('../../bg-home.png')!important;
+}
+
+
+
+/* header */
+/* #header.header-fancy{
+
+  margin-bottom: 0!important;
+
+}
+
+@media (max-width: 1024px){
+  #header.header-fancy .navbar-header{
+    padding-top:60px;
+  }
+}
+
+@media (max-width: 1023px){
+  #header .navbar-toggle {
+
+  }
+}
+
+#header.header-fancy .navbar-brand{
+  border-radius: 0 0 20px 20px!important;
+} */
+/* slider */
+/* #main-heading{
+  margin-top: -60px!important;
+}
+#main-heading .post-slider .post img{
+  width: 100%!important;
+}
+
+.post-slider.featured-content .post-content.bottom-center{
+  bottom: 55px!important;
+  padding: 15px 15px 15px 15px !important;
+  border-radius: 10px 10px 10px 10px;
+} */
+/* .facon {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 10px;
+  width: 30px;
+}
+
+.facon:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #b5106c;
+  color: white;
+}
+
+
+.fa-youtube-play {
+  background: #CB3737;
+  color: white;
+} */
+.facon {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 10px;
+  width: 30px;
+}
+
+.facon:hover {
+    opacity: 0.7;
+}
+
+/* header */
+#header{
+  border-bottom: 5px solid #1a2c43;
+}
+
+/* logo header background */
+
+#header.header-fancy .navbar-brand{
+  border-radius: 10px;
+}
+/* logo Header tetxt */
+#header .navbar-brand span{
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif!important;
+  line-height: 15px!important;
+}
+#header.header-fancy .navbar-brand>span{
+  font-size: 12px!important;
+}
+
+#main-heading{
+  margin-top: -60!important;
+  padding-top: 0!important;
+  margin-bottom: 60px!important;
+  background-color: #E6E6E6;
+}
+
+/* slider */
+#main-heading .post-slider .post img{
+  /* width: 100%!important; */
+}
+
+.post-slider.featured-content .post-content.bottom-center{
+  padding: 15px 15px 15px 15px !important;
+  bottom: 55px!important;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px dotted #1a2c43;
+}
+
+@media(max-width:1023px){
+  .post-slider.featured-content .post-content.bottom-center{
+    border: none!important;
+  }
+}
+
+
+
+
+/* berita */
+
+@media (min-width: 1024px){
+  #newsfeed {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 30%;
+  background-image: url('../../bg-home.png')!important;
+  }
+}
+
+#berita {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+    /* border-radius: 10px 10px 10px 10px; */
+    background-color: #1a2c43;
+}
+
+.berita-caption {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    bottom: 10px;
+    position: absolute;
+    background-color: rgba(7, 60, 100, 0.59);
+    width:95%;
+    /* border-radius: 10px 10px 10px 10px; */
+    overflow: hidden;
+}
+
+#images{
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 700px;
+  opacity: 0.5;
+}
+
+.berita-caption h5 a{
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  color:#fff;
+  text-decoration: none;
+}
+
+#berita:hover #images {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+    opacity: 1;
+}
+
+#berita:hover .berita-caption{
+  background-color: #073C64;
+}
+
+
+/* galery */
+.photo-box{
+  border: none!important;
+}
+.video-box {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+#gallery .video-box .btn-box .btn-more{
+  padding: 10px;
+}
+
+.photo-item a .photo-img, #gallery-heading .video-nav .video-item a .photo-img{
+	background-image: url('../../bg-home.png')!important;
+}
+
+.photo-item a .photo-img{
+  height: 200px!important;
+}
+
+
+/* agenda */
+.post.post-event .event-date>span{
+  font-size: 30px!important;
+  color: red!important;
+}
+
+
+/* btn -app */
+.btn-appl{
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
+.btn-appl a{
+  color: #fff;
+  font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  padding: 20px;
+}
+.btn-appl:hover{
+  opacity: 0.8;
+}
+.btn-appl a:hover{
+  color: #fff;
+}
+
+
+/* //modul berita */
+.post .post-img a{
+  background-image: url('../../bg-home.png')!important;
+}
+
+.single-post .post-content .slider-wrapper .gallery-slider{
+  height: 320px;
+}
+
+.content .content-header, #content .content-header, .tpb-title, .single-post .content-heading, .panel-header, .widget .widget-header, #comments .comment-header
+{
+  margin-bottom: 10px!important;
+}
+
+
+/* btn scroll top */
+/* #btnScrollTop
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    background: #ffc038;
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    font-weight: bold;
+    border-radius: 100%;
+    transition: all 500ms .2s;
+    cursor: pointer;
+}
+
+#btnScrollTop a .fa{
+  display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+transform: translate(0, 0);
+} */
+
+#doseng {
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 300px;
+}
+
+#doseng .contents{
+  min-height: 100px;
+  width: 100%!important;
+}
+
+@media (max-width: 756px){
+  .share-box{
+    text-align: center!important;
+    padding-top:0;
+    margin-bottom: 30px;
+    }
+}
+.share-box{
+  text-align: left;
+  }
+
+.share-box li{
+  display: inline-block;
+}
+
+.sosial-box{
+
+}
